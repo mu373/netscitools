@@ -1,0 +1,4 @@
+numpy
+networkx
+pandas
+beautifulsoup4

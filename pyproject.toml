@@ -1,5 +1,5 @@
 [project]
-name = "nstools"
+name = "netscitools"
 description = "Network Science Tools: A package that includes tools for network science."
 readme = "README.md"
 version = "0.0.1" # Delete this line and add the line below to tell hatch to use dynamic versioning
