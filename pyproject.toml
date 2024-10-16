@@ -3,7 +3,7 @@ name = "netscitools"
 description = "Network Science Tools: A package that includes tools for network science."
 readme = "README.md"
 version = "0.0.1" # Delete this line and add the line below to tell hatch to use dynamic versioning
-requires-python = ">=3.10"
-license = "MIT"
+requires-python = ">=3.7"
+license = {file = "LICENSE.md"}
 keywords = []
 dependencies = []
