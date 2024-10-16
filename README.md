@@ -3,7 +3,12 @@ Network Science tools (netscitools): Python package that includes useful functio
 
 ## Installation
 ```sh
-pip install netscitools
+# Clone the repository from GitHub
+git clone https://github.com/mu373/netscitools
+
+# Install package using pip
+cd netscitools
+pip install .
 ```
 
 
