@@ -44,7 +44,7 @@ bfs(explore_queue, nodes_visited, G)
 from netscitools.neu_courses import *
 import requests
 
-dept_name = "CHME"
+dept_name = "chme"
 dept_html = requests.get("https://catalog.northeastern.edu/course-descriptions/{}/".format(dept_name)).text
 
 # Get course information (course title, course description, prerequisite) for the department
