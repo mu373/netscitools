@@ -1,6 +1,7 @@
 # netscitools
 Network Science tools (netscitools): Python package that includes useful functions for network science.
 
+
 ## Installation
 ```sh
 # Clone the repository from GitHub
@@ -11,6 +12,11 @@ cd netscitools
 pip install .
 ```
 
+## Modules
+This package includes the following modules:
+- `netscitools.network`: Convinient functions for graphs in networkx 
+- `netscitools.neu_courses`: Tools to analyze course prerequisite networks at Northeastern
+- `netscitools.util`: Utility functions
 
 ## Usage
 
@@ -68,7 +74,6 @@ from netscitools.util import compare_decimal_places
 compare_decimal_places(0.01, 0.01)
 compare_decimal_places(0.01111, 0.01111111)
 ```
-
 
 ## License
 MIT
